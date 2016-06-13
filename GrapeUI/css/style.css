@@ -1,0 +1,64 @@
+@charset "UTF-8";
+html {
+    font-family: Microsoft YaHei, serif;
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.main{
+    overflow: hidden;
+    width: 100%;
+    max-width: 638px;
+    background-color: #68cdd5;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    max-width: 40px;
+    height: 50px;
+    padding-left: 5%;
+    padding-top: 5px;
+}
+.logo{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.content{
+    width: 80%;
+    margin: 5% auto;
+    font-size: 3.2rem;
+    line-height: 5rem;
+    color: #fff;
+}
+.foot{
+    overflow: hidden;
+    padding-bottom: 2rem;
+
+}
+.foot-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.foot-right{
+
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.foot p{
+    font-size: 2rem;
+    line-height: 5.4rem;
+    text-align: center;
+    color: #fff;
+}
+@media screen and ( max-width: 480px) {
+    html {
+        font-size: 52.5%;
+    }
+}

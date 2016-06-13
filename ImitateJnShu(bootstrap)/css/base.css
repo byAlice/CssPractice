@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    color: #0f0f0f;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*响应式导航*/
+.nav-reset {
+    background-color: #26a26f;
+    margin-bottom: 0;
+
+}
+
+.nav-reset a {
+    color: white;
+    font-size: 2.8rem
+}
+
+.ul-list li a:visited {
+    background-color: #26a26f;
+    border-bottom: 2px white solid;
+}
+
+.ul-list li a:hover {
+    background-color: #26a26f;
+    border-bottom: 2px white solid;
+}
+
+.ul-list li a:hover {
+    background-color: #26a26f;
+    border-bottom: 2px white solid;
+}
+
+.btn-color {
+    background-image: url("../img/btn-1.png");
+    background-position: -2px 0;
+    border: 1px solid #fff;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.top {
+    background-color: #ffffff;
+    color: #26a26f;
+    font-size: 2rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.width-reset {
+    width: 100%;
+    margin: 0;
+}
+
+.color {
+    background-color: #26a26f;
+    color: #fff;
+}
+
+.logo-img {
+    display: block;
+    height: 30px;
+    margin-left: 8%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+.li-style {
+    font-size: 2.5rem;
+}
+
+.li-style li a:visited {
+    background-color: #26a26f;
+    color: #fff;
+}
+
+.li-style li a:hover {
+    background-color: #26a26f;
+    color: #fff;
+}
+
+.li-style li a:active {
+    background-color: #26a26f;
+    color: #fff;
+}
+
+.li-style1 ul {
+    margin-left: 0;
+    padding: 0;
+}
+
+.li-style1 ul li {
+    display: inline;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    margin-left: 0;
+    padding: 0 5%;
+    font-size: 0.8rem;
+}
+
+.li-style1 ul li.left0 {
+    padding-left: 0;
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
+.padding-left {
+    padding-left: 7%;
+}
+
+.text-align-center {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.border-top {
+    border-top: 1px #f6f6f6 solid;
+}
+
+@media screen and ( max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+
+    .logo-img {
+        height: 30px;
+        display: block;
+        margin-left: 3%;
+
+    }
+
+    .margin-right {
+        margin-right: 0;
+    }
+
+    .padding-left {
+        padding-left: 6%;
+    }
+
+    .top {
+        margin-left: 0;
+    }
+}
+

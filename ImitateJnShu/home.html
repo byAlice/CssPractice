@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/home.css" rel="stylesheet" type="text/css"/>
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <title>首页</title>
+    <script>
+        window.onload = function () {
+            var oPrev = document.getElementById('prev');
+            var oNext = document.getElementById('next');
+            var oImg = document.getElementById('image');
+            var oF1 = document.getElementById('f1');
+            var oF2 = document.getElementById('f2');
+            var oF3 = document.getElementById('f3');
+            var oF4 = document.getElementById('f4');
+            var arrUrl = ["img/banner-1.jpg", "img/banner-2.jpg", "img/banner-3.jpg", "img/banner-4.jpg"];
+            var num = 0;
+            oImg.src = arrUrl[num];
+            oPrev.onclick = function () {
+                num--;
+                if (num == -1) {
+                    num = 3;
+                }
+                oImg.src = arrUrl[num];
+            };
+            oNext.onclick = function () {
+                num++;
+                if (num == 4) {
+                    num = 0;
+                }
+                oImg.src = arrUrl[num];
+            };
+            oF1.onclick = function () {
+                oImg.src = arrUrl[0];
+            };
+            oF2.onclick = function () {
+                oImg.src = arrUrl[1];
+            };
+            oF3.onclick = function () {
+                oImg.src = arrUrl[2];
+            };
+            oF4.onclick = function () {
+                oImg.src = arrUrl[3];
+            };
+        };
+    </script>
+</head>
+<body>
+<ul class="topnav">
+    <li class="joinus">客服热线:010-594-78634</li>
+    <li class="background-img weibo"></li>
+    <li class="background-img qq"></li>
+    <li class="background-img weixin"></li>
+</ul>
+<ul class="nav">
+    <li class="background-img logo"></li>
+    <li><a href="#" class="about">关于</a></li>
+    <li><a href="partner.html" class="rec">推荐</a></li>
+    <li><a href="career.html" class="voc">职业</a></li>
+    <li><a href="#" class="home">首页</a></li>
+</ul>
+<div id="subnav">
+    <a id="prev"><img src="img/prev.png"></a>
+    <a id="next"><img src="img/next.png"></a>
+    <img id="image" src="img/banner-1.jpg"/>
+
+    <div class="subnav-foot">
+        <div id="f1" class="circle"></div>
+        <div id="f2" class="circle"></div>
+        <div id="f3" class="circle"></div>
+        <div id="f4" class="circle"></div>
+    </div>
+</div>
+<div class="content1">
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li class="background-img icon1"></li>
+                    <li class="big">高效</li>
+                    <li class="small">将五到七年的成长时间，缩短到一到三年</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li class="background-img icon2"></li>
+                    <li class="big">规范</li>
+                    <li class="small">标准的实战教程，不会走弯路</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li class="background-img icon3"></li>
+                    <li class="big">人脉</li>
+                    <li class="small">同班好友，同班学长，技术大师，入学就混入职脉圈，为以后铺平道路</li>
+                </ul>
+            </td>
+            <th class="border-left">
+                <ul class="special">
+                    <li class="background-img icon-body li1">12400</li>
+                    <li class="li2">累计在线学习人数</li>
+                    <li class="background-img icon-body li1"> 12400</li>
+                    <li class="li2">累计在线学习人数</li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+</div>
+<div class="clear"></div>
+<p>如何学习</p>
+
+<div class="study">
+    <div class="display">
+        <ul>
+            <li><span class="num">1</span><span class="con">匹配你现在的个人状况寻找适合自己的岗位</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">2</span><span class="con">了解职业前景薪金待遇，竞争压力等</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">3</span><span class="con">掌握行内顶级技能</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">4</span><span class="con">查看职业目标任务</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">5</span><span class="con">参考学习资源，掌握技能点，逐个完成任务</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">6</span><span class="con">加入班级，和小伙伴互帮互助，一起学习</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">7</span><span class="con">选择导师，一路引领，加速自己成长</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <div class="display">
+        <ul>
+            <li><span class="num">8</span><span class="con">完成职业技能，升级业界大牛</span><span
+                    class="background-img icon-right"></span></li>
+        </ul>
+    </div>
+    <!--<div class="display"><ul><li class="num"></li><li>了解职业前景薪金待遇，竞争压力等</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>掌握行内顶级技能</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>查看职业目标任务</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>参考学习资源，掌握技能点，逐个完成任务</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>加入班级，和小伙伴们互帮互助，一起学习</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>选择导师，一路引领，加速自己成长</li><li class="background-img icon-right"></li></ul></div>
+    <div class="display"><ul><li class="num"></li><li>完成职业技能，升级业界大牛</li><li class="background-img icon-right"></li></ul></div>-->
+</div>
+<p>优秀学员展示</p>
+
+<div class="show">
+    <div class="card">
+        <div class="background-img boy1"></div>
+        <p class="p1">技术顾问：罗大佑</p>
+
+        <p class="p2">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名，曾任新网高级技术经理，负责技术研发，团队管理与建设。</p>
+    </div>
+    <div class="card">
+        <div class="background-img girl1"></div>
+        <p class="p1">技术顾问：罗大佑</p>
+
+        <p class="p2">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名，曾任新网高级技术经理，负责技术研发，团队管理与建设。</p>
+    </div>
+    <div class="card">
+        <div class="background-img girl2"></div>
+        <p class="p1">技术顾问：罗大佑</p>
+
+        <p class="p2">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名，曾任新网高级技术经理，负责技术研发，团队管理与建设。</p>
+    </div>
+    <div class="card">
+        <div class="background-img boy2"></div>
+        <p class="p1">技术顾问：罗大佑</p>
+
+        <p class="p2">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名，曾任新网高级技术经理，负责技术研发，团队管理与建设。</p>
+    </div>
+</div>
+<div class="foot">
+    <div class="circle1"></div>
+    <div class="circle1"></div>
+    <div class="circle1"></div>
+    <div class="circle1"></div>
+</div>
+<p>战略合作伙伴</p>
+
+<div class="partner">
+    <div class="background-img alibaba part"></div>
+    <div class="background-img goldyun part"></div>
+    <div class="background-img huanxin part"></div>
+    <div class="background-img yuntongxun part"></div>
+    <div class="background-img qiniu part"></div>
+</div>
+<p>友情链接</p>
+
+<div class="link">
+    <ul>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+        <li>找工作</li>
+        <li>手机软件</li>
+        <li>教师招聘</li>
+    </ul>
+</div>
+<div class="footer">
+    <div class="term">
+        <div class="p3">技能树 — 改变你我</div>
+        <ul>
+            <li>关于我们</li>
+            <li>联系我们</li>
+            <li style="border: none">合作公司</li>
+        </ul>
+    </div>
+    <div class="web">
+        <div class="p3">旗下网站</div>
+        <ul>
+            <li>草船云孵化器</li>
+            <li>最强IT特训营</li>
+            <li>葡萄藤轻游戏</li>
+            <li>桌游精灵</li>
+        </ul>
+    </div>
+    <div class="code">
+        <div class="p3">微信公众平台</div>
+        <div class="background-img icon-code"></div>
+    </div>
+    <div class="copyright">Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+
+.small{
+    font-size: 2rem;
+    text-align: left;
+}
+.user{
+    padding: 8% 0;
+}
+.num{
+    border: solid 1px #edecec;
+    border-radius:50%;
+    background-color:#FFFFFF;
+    color: #26a26f;
+    -webkit-background-origin:border-box;
+    box-sizing:border-box;
+    padding: 3% 5%;
+}
+.con,.con1{
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5%;
+    box-sizing:border-box;
+}
+.con1{
+   padding:5% 0;
+}
+.div-p p{
+    height: 15rem;
+    font-size:2rem;
+}
+h1{
+    text-align: center;
+    margin: 5% 0;
+}
+.p2{
+    text-align:left;
+}
+.p1{
+    font-weight: bold;
+}
+.foot{
+    margin-top: 5%;
+    text-align: center;
+}
+.circle1{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    background-color: #9a9a9a;
+    border-radius: 50%;
+}
+.circle1:hover{
+    background-color: #26a26f;
+}
+.margin-col{
+    margin: 5% 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*�ֲ�ͼ*/
+#ad {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#ad img {
+    max-width: 100%;
+    display: block;
+}
+
+#ad a {
+    width: 35px;
+    filter: alpha(opacity:30);
+    opacity: 0.3;
+    position: absolute;
+}
+
+#ad a:hover {
+    filter: alpha(opacity:50);
+    opacity: 0.5;
+}
+
+#prev {
+    left: 10%;
+    top: 40%;
+}
+
+#next {
+    right: 10%;
+    top: 40%;
+}
+
+.ad-foot {
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+    #prev {
+        left: 3%;
+        top: 20%;
+    }
+
+    #next {
+        right: 3%;
+        top: 20%;
+    }
+
+    .ad-foot {
+        position: absolute;
+        bottom: 5%;
+        left: 43%;
+    }
+}

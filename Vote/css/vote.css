@@ -1,0 +1,240 @@
+@charset"UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    max-width: 720px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color:#29bde0;
+    position: relative;
+}
+.head{
+    margin-top: 0;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: #29bde0;
+
+}
+.head p{
+    font-size:4rem;
+    font-weight: 500;
+    text-align: center;
+    color: #f0f0f0;
+    line-height:70px;
+}
+.head-left {
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+    height: 40px;
+    width: 39px;
+    background: url("../img/background1-img.png");
+    background-position: -258px 0;
+}
+.head-right{
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+    height:36px;
+    width:36px;
+    background: url("../img/background1-img.png");
+    background-position:-184px 0;
+}
+.tag{
+    height:38px;
+    border:1px solid #b9e9f5;
+    padding: 2%;
+    position:relative;
+    background-color:#b9e9f5;
+}
+.tag p{
+    font-size:2rem;
+    font-weight: 500;
+    margin-top:0;
+    text-align: center;
+    line-height: 38px;
+}
+button{
+    border: none;
+}
+.tag-right{
+    position:absolute;
+    right:1%;
+    height:38px;
+    width:38px;
+    border-radius: 50%;
+    background: url("../img/background1-img.png") #fbb435;
+    background-position:-220px 0;
+}
+.arrow{
+    position:absolute;
+    width:10px;
+    height:10px;
+    bottom:-10px;
+    left:10%;
+    font-size:3rem;
+    font-weight: 500;
+}
+.arrow *{
+    display:block;
+    border-width:10px 5px 10px 5px;
+    position:absolute;
+    border-style:solid dashed dashed dashed;
+    font-size:0;
+    line-height:0; }
+.arrow em{
+    border-color:#b9e9f5 transparent transparent;
+}
+.arrow span{
+    border-color:#b9e9f5 transparent transparent;
+    top:-7px;
+}
+.content p{
+    font-size:1.5rem;
+    font-weight: 500;
+    margin-left:10%;
+    padding-bottom:2%;
+}
+.vote{
+    width: 150px;
+    margin-left:9%;
+    margin-top: 5%;
+    display: inline-block;
+}
+.vote:hover .icon{
+    visibility: visible;
+}
+.role{
+    height: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.p1{
+    width: 100%;
+    height: 80%;
+    line-height: 600%;
+    background-color: #fcc768;
+    margin: 0;
+    font-size:2rem;
+    font-weight: 500;
+
+}
+.p2{
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    font-size: 1.5rem;
+    line-height: 200%;
+    background-color: #83b09a;
+}
+.icon{
+    width: 150px;
+    height:30px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+.span1{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    background:url("../img/background1-img.png") no-repeat;
+    background-position:-88px 0;
+}
+.span2{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    background:url("../img/background1-img.png");
+    background-position:-57px 0;
+    margin-left: 10px;
+}
+.span3{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    background:url("../img/background1-img.png");
+    background-position:-119px 0;
+    margin-left: 10px;
+}
+.span4{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    background:url("../img/background1-img.png");
+    background-position:-24px 0;
+    margin-left: 10px;
+}
+.foot{
+    max-width: 720px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color:#29bde0;
+    text-align:center
+}
+.btn{
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 5rem;
+    width: 75%;
+    margin: 5% auto;
+    background-color: #fcc768;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 50%;
+    }
+    .p1{
+        line-height: 500%;
+    }
+    .vote{
+        width: 28%;
+        margin-left:3.2%;
+    }
+    .role{
+        height: 100%;
+    }
+
+    .icon{
+        width: 100%;
+        height:20px;
+    }
+    .span1{
+        height:20px;
+        width:24%;
+        background:url("../img/icons.png") no-repeat;
+        background-position:0 0;
+        margin-left:1%
+
+    }
+    .span2{
+        height:20px;
+        width:24%;
+        background:url("../img/icons.png") no-repeat;
+        background-position:0 29.3%;
+        margin-left:1%
+    }
+    .span3{
+        height:20px;
+        width:24%;
+        background:url("../img/icons.png") no-repeat;
+        background-position:0 66%;
+        margin-left:1%
+    }
+    .span4{
+        height:20px;
+        width:24%;
+        background:url("../img/icons.png") no-repeat;
+        background-position:0 98.3%;
+        margin-left:1%
+    }
+}
