@@ -2,49 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>首页</title>
     <link href="css/home.css" rel="stylesheet" type="text/css"/>
     <link href="css/base.css" rel="stylesheet" type="text/css"/>
-    <title>首页</title>
-    <script>
-        window.onload = function () {
-            var oPrev = document.getElementById('prev');
-            var oNext = document.getElementById('next');
-            var oImg = document.getElementById('image');
-            var oF1 = document.getElementById('f1');
-            var oF2 = document.getElementById('f2');
-            var oF3 = document.getElementById('f3');
-            var oF4 = document.getElementById('f4');
-            var arrUrl = ["img/banner-1.jpg", "img/banner-2.jpg", "img/banner-3.jpg", "img/banner-4.jpg"];
-            var num = 0;
-            oImg.src = arrUrl[num];
-            oPrev.onclick = function () {
-                num--;
-                if (num == -1) {
-                    num = 3;
-                }
-                oImg.src = arrUrl[num];
-            };
-            oNext.onclick = function () {
-                num++;
-                if (num == 4) {
-                    num = 0;
-                }
-                oImg.src = arrUrl[num];
-            };
-            oF1.onclick = function () {
-                oImg.src = arrUrl[0];
-            };
-            oF2.onclick = function () {
-                oImg.src = arrUrl[1];
-            };
-            oF3.onclick = function () {
-                oImg.src = arrUrl[2];
-            };
-            oF4.onclick = function () {
-                oImg.src = arrUrl[3];
-            };
-        };
-    </script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/carousel.js"></script>
+
 </head>
 <body>
 <ul class="topnav">
@@ -60,18 +23,17 @@
     <li><a href="career.html" class="voc">职业</a></li>
     <li><a href="#" class="home">首页</a></li>
 </ul>
-<div id="subnav">
-    <a id="prev"><img src="img/prev.png"></a>
-    <a id="next"><img src="img/next.png"></a>
-    <img id="image" src="img/banner-1.jpg"/>
-
-    <div class="subnav-foot">
-        <div id="f1" class="circle"></div>
-        <div id="f2" class="circle"></div>
-        <div id="f3" class="circle"></div>
-        <div id="f4" class="circle"></div>
+<!--全屏滚动-->
+<div class="banner">
+    <div class="b-img">
+        <a href="#" class="bg1"></a>
+        <a href="#" class="bg2"></a>
+        <a href="#" class="bg3"></a>
+        <a href="#" class="bg4"></a>
     </div>
-</div>
+    <div class="b-list"></div>
+    <a class="bar-left" href="#"><em></em></a><a class="bar-right" href="#"><em></em></a></div>
+<!--end 全屏滚动-->
 <div class="content1">
     <table>
         <tr>

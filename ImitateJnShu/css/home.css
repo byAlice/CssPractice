@@ -1,46 +1,111 @@
-#subnav{
+
+/*轮播图*/
+.banner {
     width: 100%;
-    margin: 0;
+    height: 420px;
+    overflow: hidden;
     position: relative;
+    margin-top: 0;
+    font-size: 0
 }
-img{
-    max-width: 100%;
+
+.b-img {
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.b-img a {
     display: block;
+    height: 420px;
+    float: left;
 }
-#subnav a{
-    width: 35px;
-    filter: alpha(opacity:30);
-    opacity: 0.3;
-    position: absolute;
+
+.b-list {
+    height: 50px;
+    padding-top: 390px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
 }
-#subnav a:hover{
-    filter:alpha(opacity:50);
-    opacity: 0.5;
-}
-#prev{
-    left: 10%;
-    top: 50%;
-}
-#next{
-    right: 10%;
-    top: 50%;
-}
-.subnav-foot{
-    position: absolute;
-    bottom: 5%;
-    left: 48%;
-}
-.circle{
-    display: inline-block;
+
+.b-list span {
+    display: block;
+    cursor: pointer;
     width: 10px;
     height: 10px;
-    border: 1px solid white;
-    background-color: transparent;
     border-radius: 50%;
+    border: 1px solid #fff;
+    float: left;
+    margin: 0 5px;
 }
-.circle:hover{
-    background-color: white;
+
+.b-list .spcss {
+    border: 1px solid #ffffff;
+    background-color: #cccccc;
 }
+
+.bar-left {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100px;
+    height: 420px;
+    left: 0;
+    background: none;
+    top: 0;
+}
+
+.bar-right {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100px;
+    height: 420px;
+    right: 0;
+    background: none;
+    top: 0;
+}
+
+.bar-left em {
+    display: block;
+    width: 50px;
+    height: 100px;
+    background: url(../img/arrow.png) 0 0 no-repeat;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.bar-right em {
+    display: block;
+    width: 50px;
+    height: 100px;
+    background: url(../img/arrow.png) -50px 0 no-repeat;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.bar-left .emcss {
+    background-position: 0 -100px;
+}
+
+.bar-right .emcss {
+    background-position: -50px -100px;
+}
+.bg1{
+    background:url(../img/banner-1.jpg) center no-repeat;
+}
+.bg2{
+    background:url(../img/banner-2.jpg) center no-repeat;
+}
+.bg3{
+    background:url(../img/banner-3.jpg) center no-repeat;
+}
+.bg4{
+    background:url(../img/banner-4.jpg) center no-repeat;
+}
+/*内容*/
 .container {
     width: 100%;
     box-sizing: border-box;
