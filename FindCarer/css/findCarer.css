@@ -1,125 +1,153 @@
 @charset "utf-8";
-html{
-    font-size: 55%  ;
+html {
+    font-size: 62.5%;
 }
-body{
+
+* {
     margin: 0;
     padding: 0;
 }
-.box{
+
+/*icon尺寸*/
+.height20 {
+    display: inline-block;
+    height: 1.6rem;
+}
+
+.height30 {
+    height: 3rem;
+}
+
+/*容器*/
+.box {
     max-width: 720px;
     min-width: 320px;
     width: 100%;
     margin: 0 auto;
     position: relative;
-    font-size:3.5em;
     color: #bebec2;
 }
-p.head{
+
+/*头部*/
+.header {
     width: 100%;
-    height: 100px;
-    margin-top: 0;
-    background: url("../image/icon-location.png") #5ec0ce no-repeat;
-    background-position: 95% 50%;
-    text-align: center;
-    vertical-align:top;
+    height: 8rem;
+    position: relative;
+    background: #5ec0ce;
+    font-size: 3rem;
 }
-span.head1{
+
+.header span {
+    position: absolute;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.header-left, .header-right {
     display: inline-block;
-    vertical-align:top;
-    position:absolute;
+    border-radius: 1rem;
+}
+
+.header-left {
     right: 50%;
     background-color: #55a7b2;
-    border-radius:5%;
     color: #fff
 }
-span.head2{
-    display: inline-block;
-    vertical-align:top;
-    position:absolute;
-    left:50%;
+
+.header-right {
+
+    left: 50%;
     background-color: #fff;
-    border-radius: 5%;
     color: #55a7b2;
 }
-p.head span{
-    margin-top:3%;
-    padding : 1%;
+
+.header-icon{
+    right: 3%;
 }
-ul{
-    padding: 0;
+/*内容部分*/
+ul {
+    padding: 4% 0;
     width: 100%;
-    list-style:none;
-    font-size: 0.8em;
+    list-style: none;
+    font-size: 2rem;
 }
-li{
-    padding-bottom:1%;
+
+ul li {
+    padding-bottom: 1%;
     border-bottom: solid 1px #bebec2;
 }
-td.border-right{
+
+.table {
+    width: 100%;
+}
+
+.border-right {
     border-right: solid 1px #bebec2;
-    width: 3%;
+    width: 33%;
     text-align: center;
     position: relative;
-
 }
-.border-right span{
+
+.border-right span {
     position: absolute;
-    right: 2%;
+    right: 3%;
     bottom: 10%;
 }
 
-.table{
-    width: 100%;
-
+#no-border {
+    border: none;
 }
-th.cell-right{
+
+
+
+.cell-right {
     text-align: right;
-    width:50%;
-    color:red;
+    width: 50%;
+    color: red;
     position: relative;
     right: 5%;
-}
-td.black{
-    color: #000;
-}
-.footer{
-    position:fixed;
-    max-width: 720px;
-    width: 100%;
-    background-color: #ffffff;
-    bottom: 0;
-    font-size: 0.8em;
-}
-.f-left{
-    float: left;
-    margin-left:27%;
-    text-align:center;
-}
-.f-center{
-    background: url("../image/icon-pencil.png")  #5fc0cd no-repeat;
-    background-position: 60% center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    float: left;
-    margin-left:15%;
 
 }
-.f-right{
-    float: left;
-    margin-left:15%;
-    text-align:center;
+
+.black {
+    color: #000;
 }
+
+/*尾部*/
+.footer {
+    max-width: 720px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    font-size: 1.6em;
+    background-color: #ffffff;
+
+}
+.f-left, .f-center, .f-right{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+
+}
+
+
+.fc-icon{
+    background: url("../image/icon-pencil.png") #5fc0cd no-repeat;
+    background-position: 60% center;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+
 @media screen and (max-width: 480px) {
-    html{
-        font-size: 40%;
-    }
-    p.head {
-        height: 55px;
-    }
-    .f-left{
-        margin-left:20%;
+    html {
+        font-size: 55%;
     }
 
 }

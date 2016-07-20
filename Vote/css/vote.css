@@ -14,7 +14,7 @@ body{
     background-color:#29bde0;
     position: relative;
 }
-.head{
+.header {
     margin-top: 0;
     width: 100%;
     height: 70px;
@@ -22,7 +22,7 @@ body{
     background-color: #29bde0;
 
 }
-.head p{
+.header p{
     font-size:4rem;
     font-weight: 500;
     text-align: center;

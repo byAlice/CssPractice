@@ -1,40 +1,63 @@
 @charset "utf-8";
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+* {
     margin: 0;
     padding: 0;
 }
-.box{
+
+/*icon尺寸*/
+.height20 {
+    height: 20px;
+    display: inline-block;
+}
+
+/*容器*/
+.box {
     max-width: 720px;
     min-width: 320px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
-.header{
-    padding: 0.5% 0;
-    width: 100%;
-    background-color: #5fc0cd;
-    color: #ffffff;
-    font-size: 3em;
-    font-weight: 300;
-    text-align: center;
-}
-.header span{
 
-    position: absolute;
-    left: 4%;
+/*头部*/
+.header {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+    background: #5ec0ce;
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0;
 }
+
+.header-icon {
+    position: absolute;
+    padding: 0.7rem;
+    top: 2rem;
+    left: 3rem;
+}
+
+.header p {
+    font-size: 3rem;
+    font-weight: normal;
+}
+/*广告图片*/
 .background {
     width: 100%;
     background-image: url("../image/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom:30%;
+    padding-bottom: 30%;
 
 }
-.face{
+
+.face {
     width: 100px;
     height: 100px;
     border: solid 1px #cacacb;
@@ -42,100 +65,119 @@ body{
     background-position: 50%;
     background-repeat: no-repeat;
     background-image: url("../image/icon-face.png");
-    background-size:contain;
+    background-size: contain;
     border-radius: 50%;
     float: left;
-    margin-top:8%;
-    margin-left:5%;
-}
-.statement{
-    float: left;
-    margin-top:8%;
-    margin-left:5%;
-}
-.statement p img{
-    width: 10%;
-}
-.statement p{
-    font-size: 2em;
-    font-weight:900;
-    color:white;
-    font-family:monospace;
-}
-.content1{
-    border-bottom: solid 1px #bebec2;
-    width: 100%;
-    font-size: 2em;
-    font-weight:900;
-}
-.content2{
+    margin-top: 8%;
     margin-left: 5%;
 }
-.p1{
-    margin-left:2%;
-    padding-left:2%;
-    border-left: solid 2px #5fc0cd;
-    font-size: 1.5em;
-    font-weight:900;
+
+.statement {
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
 }
 
+.statement p img {
+    width: 10%;
+}
 
-ul{
+.statement p {
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    font-family: monospace;
+}
+
+/*内容*/
+.content1 {
+    border-bottom: solid 1px #bebec2;
+    width: 100%;
+
+    font-weight: 900;
+}
+
+.content2 {
+    margin-left: 5%;
+}
+
+.p1 {
+    margin-left: 2%;
+    padding-left: 2%;
+    border-left: solid 4px #5fc0cd;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+ul {
     padding: 0;
     width: 100%;
     list-style: none;
-    font-size: 2.5em;
-    font-weight:900;
+    font-size: 2rem;
+    font-weight: 900;
 }
-li{
+
+li {
     padding: 1% 0;
     border-bottom: solid 1px #bebec2;
 }
-ul li span.span1{
+
+ul li span.span1 {
     padding-right: 5%;
     color: #bebec2;
 
 }
-ul li span.span2{
+
+ul li span.span2 {
     color: #000;
     width: 60%;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     border-left: solid 1px #bebec2;
     padding-left: 5%;
 }
 
+.red {
+    color: red
+}
 
-.foot{
-    position:absolute;
+/*尾部*/
+.foot {
+    position: absolute;
     width: 100%;
     float: left;
-    margin-top: 10%;
+    margin-top: 2%;
 }
-button{
+
+button {
     float: left;
     width: 35%;
-    padding:3%;
-    border-radius:5px;
-    font-size: 2.5em;
-    font-weight:900;
-    margin:5% 7% 5% 7%;
+    padding: 3%;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 5% 7% 5% 7%;
 }
-.button1{
+
+.button1 {
     background: #fff;
     color: #5fc0cd;
     border: solid 1px #5fc0cd;
 }
-.button2{
-    background-color:#5fc0cd;
-    color:  #fff;
+
+.button2 {
+    background-color: #5fc0cd;
+    color: #fff;
     border: solid 1px #5fc0cd;
 }
+
 @media screen and (max-width: 480px) {
-    html{
+    html {
         font-size: 40%;
     }
-    .face{width: 60px;
+
+    .face {
+        width: 60px;
         height: 60px;
     }
 }
