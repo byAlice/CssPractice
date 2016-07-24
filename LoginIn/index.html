@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link href="css/master.css" rel="stylesheet" type="text/css">
+    <script src="js/cookie.js"></script>
+    <script src="js/1.js"></script>
     <title>登录页面</title>
 </head>
 <body>
@@ -11,22 +13,22 @@
 <div class="header">
     <p><span>关闭</span>登陆</p>
 </div>
-<form>
+<form id="form1" action="https://github.com/byAlice/">
     <ul>
         <li>
             <label for="username">
                 <img class="username" src="images/icon-login.png"/>
             </label>
-            <input type="text" id="username" maxlength="11" placeholder="请输入手机号码">
+            <input type="text" id="username" name="user" maxlength="11" placeholder="请输入手机号码">
         </li>
         <li>
             <label for="password">
                 <img class="password" src="images/icon-password.png"/>
             </label>
-            <input type="text" id="password" maxlength="12" min="6" placeholder="请输入密码">
+            <input type="password" id="password" name="pass" maxlength="12" min="6" placeholder="请输入密码">
         </li>
     </ul>
-    <button type="submit">登陆</button>
+    <input id="btn" type="submit" value="登陆">
 </form>
 </div>
 </body>
