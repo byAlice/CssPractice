@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局</title>
+	<style>
+		/*float+margin方案，有浏览器默认margin：8px*/
+		html,
+		body,
+		div
+		{
+		    margin: 0;
+		    padding: 0;
+		}
+
+		#left
+		{
+		    float: left;
+
+		    width: 200px;
+		    height: 100px;
+
+		    background-color: red;
+		}
+
+		#right
+		{
+		    float: right;
+
+		    width: 200px;
+		    height: 100px;
+
+		    background-color: yellow;
+		}
+		
+		#center
+		{
+		    height: 100px;
+		    margin-left: 210px;
+		    margin-right: 210px;
+
+		    background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+<div id="box">
+<div id="left"></div>
+<div id="right"></div>
+<div id="center"></div>
+</div>
+</body>
+</html>

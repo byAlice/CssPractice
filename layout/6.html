@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局</title>
+	<style>
+		/*position+margin方案,使用此种方案布局后，浏览器默认margin：8px无法清除*/
+
+		html,
+		body,
+		div
+		{
+		    margin: 0;
+		    padding: 0;
+		}
+
+		#box
+		{
+		    position: relative;
+
+		    /* margin-left: 10px; */
+		}
+
+		#left
+		{
+		    position: absolute;
+		    left: 0;
+
+		    width: 200px;
+		    height: 100px;
+		    
+		    background-color: red;
+		}
+		
+		#center
+		{
+		   
+		    height: 100px;
+		    margin-left: 210px;
+		    margin-right: 210px;
+
+		    background-color: green;
+		}
+
+		#right
+		{
+		    position: absolute;
+		    right: 0;
+
+		    width: 200px;
+		    height: 100px;
+
+		    background-color: yellow;
+		}
+
+	</style>
+</head>
+<body>
+<div id="box">
+<div id="left"></div>
+<div id="right"></div>
+<div id="center"></div>
+<!-- 注意顺序，left，right，center，顺序错了无法正确布局-->
+ </div>
+</body>
+</html>

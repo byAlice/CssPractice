@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>三栏布局</title>
+    <style>
+	    /*flex方案,注意此方案有浏览器默认margin：8px*/
+	    html,
+	    body,
+	    div {
+	        margin: 0;
+	        padding: 0;
+	    }
+	    
+	    #box {
+	        display: flex;
+	    }
+	    
+	    #left {
+	        width: 200px;
+	        height: 100px;
+	        margin-right: 10px;
+	        background-color: red;
+	    }
+	    
+	    #center {
+	        height: 100px;
+	        background-color: green;
+	        flex: 1;
+	    }
+
+	    #right {
+	        width: 200px;
+	        height: 100px;
+	        margin-left: 10px;
+	        background-color: yellow;
+	    }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="left"></div>
+        <div id="center"></div>
+        <div id="right"></div>
+    </div>
+</body>
+
+</html>

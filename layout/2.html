@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两栏布局</title>
+	<style>
+		/*position+margin方案,使用此种方案布局后，浏览器默认margin：8px无法清除*/
+
+		html,
+		body,
+		div
+		{
+		    margin: 0;
+		    padding: 0;
+		}
+
+		#box
+		{
+		    position: relative;
+
+		    /* margin-left: 10px; */
+		}
+
+		#left
+		{
+		    position: absolute;
+
+		    width: 200px;
+		    height: 100px;
+
+		    background-color: red;
+		}
+		
+		#right
+		{
+		    height: 100px;
+		    margin-left: 210px;
+
+		    background-color: green;
+		}
+
+
+	</style>
+</head>
+<body>
+<div id="box">
+<div id="left"></div>
+<div id="right"></div>
+</div>
+</body>
+</html>

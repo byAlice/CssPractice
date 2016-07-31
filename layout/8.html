@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>三栏布局</title>
+    <style>
+	    /*float+负margin方案*/
+	    
+	    html,
+	    body,
+	    div {
+	        margin: 0;
+	        padding: 0;
+	    }
+	    
+	    #box {
+	        float: left;
+	        width: 100%;
+	        height: 100px;
+	    }
+	    
+	    #center {
+	        margin-left: 210px;
+	        margin-right: 210px;
+	        height: 100px;
+	        background-color: green;
+	    }
+	    
+	    #left {
+	        float: left;
+	        width: 200px;
+	        height: 100px;
+	        margin-left: -100%;
+	        background-color: red;
+	    }
+
+	    #right {
+	        float: left;
+	        width: 200px;
+	        height: 100px;
+	        margin-left: -200px;
+	        background-color: yellow;
+	    }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="center"></div>
+<!--把要自适应宽度的div放在box里面-->    
+     	</div>
+    <div id="left"></div>
+    <div id="right"></div>
+    <!-- 注意left，right不包含在box中 -->
+</body>
+
+</html>

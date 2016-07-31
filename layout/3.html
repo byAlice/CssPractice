@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两栏布局</title>
+	<style>
+		/*float+margin方案，有浏览器默认margin：8px*/
+		html,
+		body,
+		div
+		{
+		    margin: 0;
+		    padding: 0;
+		}
+
+		#left
+		{
+		    float: left;
+
+		    width: 200px;
+		    height: 100px;
+
+		    background-color: red;
+		}
+		
+		#right
+		{
+		    height: 100px;
+		    margin-left: 210px;
+
+		    background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+<div id="box">
+<div id="left"></div>
+<div id="right"></div>
+</div>
+</body>
+</html>
