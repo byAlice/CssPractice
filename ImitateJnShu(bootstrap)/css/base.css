@@ -78,7 +78,7 @@ a:link {
     color: #fff;
 }
 /*底部左边*/
-.li-style-left{
+.li-style-left li{
     font-size: 1.4rem;
     display: inline;
     -webkit-box-sizing: border-box;
@@ -94,20 +94,16 @@ a:link {
     border:none;
 }
 /*底部中间*/
-.li-style-center{
+.li-style-center li{
     font-size: 1.4rem;
     list-style: none;
     text-align: left;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding-left: 36%;
+    padding-left: 30%;
 }
 
-/*copyright上边框*/
-.border-top {
-    border-top: 1px #f6f6f6 solid;
-}
 
 /*上边距以及居中*/
 .margin-top {
