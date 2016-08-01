@@ -23,23 +23,23 @@
 
 	* 两栏布局
 
-	1 [flex方案](http://byalice.github.io/layout/1.html)
+	1 [flex方案](http://byalice.github.io/CssPratice/layout/1.html)
 
-	2 [position+margin方案](http://byalice.github.io/layout/2.html)
+	2 [position+margin方案](http://byalice.github.io/CssPratice/layout/2.html)
 
-	3 [float+margin方案](http://byalice.github.io/layout/3.html)
+	3 [float+margin方案](http://byalice.github.io/CssPratice/layout/3.html)
 
-	4 [float+负margin方案](http://byalice.github.io/layout/4.html)
-
+	4 [float+负margin方案](http://byalice.github.io/CssPratice/layout/4.html)
+	
   * 三栏布局
+  
+	5 [flex方案](http://byalice.github.io/CssPratice/layout/5.html)
 
-	5 [flex方案](http://byalice.github.io/layout/5.html)
+	6 [position+margin方案](http://byalice.github.io/CssPratice/layout/6.html)
 
-	6 [position+margin方案](http://byalice.github.io/layout/6.html)
+	7 [float+margin方案](http://byalice.github.io/CssPratice/layout/7.html)
 
-	7 [float+margin方案](http://byalice.github.io/layout/7.html)
-
-	8 [float+负margin方案](http://byalice.github.io/layout/8.html)
+	8 [float+负margin方案](http://byalice.github.io/CssPratice/layout/8.html)
 
 
 * LoginIn : [一个登陆界面](http://byalice.github.io/CssPractice/LoginIn/index.html)
