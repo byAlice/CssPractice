@@ -6,7 +6,7 @@
 
 .play {
     width: 100%;
-    height: 420px;
+    height: 424px;
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -17,8 +17,8 @@ image{
 }
 ol {
     position: absolute;
-    right: 45%;
-    bottom: 5px;
+    bottom: 2%;
+    left: 44%;
     z-index: 999999;
 }
 
@@ -38,7 +38,7 @@ ol li {
 #img {
     position: absolute;
     width: 100%;
-    height: 420px;
+    height: 424px;
     top: 0;
     left: 0;
     z-index: 1;
@@ -55,12 +55,12 @@ ol li {
     opacity: 1;
 }
 #prev{
-    left: 5%;
-    top: 45%;
+    left: 3%;
+    top: 185px;
 }
 #next{
-    right: 5%;
-    top: 45%;
+    right: 3%;
+    top: 185px;
 }
 /*轮播图end*/
 
@@ -139,10 +139,27 @@ h1{
 @media screen and (max-width: 480px) {
     .play {
 
-        height: 240px;
+        height: 184px;
 
     }
     #img {
-        height: 240px;
+        height: 184px;
     }
+    #prev{
+        left: 3%;
+        top: 65px;
+    }
+    #next{
+        right: 3%;
+        top: 65px;
+    }
+    ol {
+        bottom: 1%;
+        left: 32%;
+    }
+    ol li {
+        width: 10px;
+        height: 10px;
+    }
+
 }
