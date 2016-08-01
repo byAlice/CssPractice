@@ -42,7 +42,7 @@
         8 [float+负margin方案](http://byalice.github.io/CssPractice/layout/8.html)
 
 
-* LoginIn : [一个登陆界面](http://byalice.github.io/CssPractice/LoginIn/index.html)
+* Login : [一个登陆界面](http://byalice.github.io/CssPractice/Login/index.html)
 
 
 * Sudoku : [一个九宫格](http://byalice.github.io/CssPractice/Sudoku/index.html)

@@ -4,6 +4,22 @@ html {
     color: #0f0f0f;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+body {
+    background-color: #f6f6f6;
+}
+/*顶部联系电话*/
+.top {
+    background-color: #ffffff;
+    color: #26a26f;
+    font-size: 2rem;
+}
+.width-reset {
+    width: 100%;
+    margin: 0;
+}
+.padding-left {
+    padding-left: 7%;
+}
 
 /*响应式导航*/
 .nav-reset {
@@ -38,36 +54,22 @@ html {
     border: 1px solid #fff;
 }
 
-body {
-    background-color: #f6f6f6;
-}
-
-.top {
-    background-color: #ffffff;
-    color: #26a26f;
-    font-size: 2rem;
-}
-
-.clear {
-    clear: both;
-}
-
-.width-reset {
-    width: 100%;
-    margin: 0;
-}
-
-.color {
-    background-color: #26a26f;
-    color: #fff;
-}
-
 .logo-img {
     display: block;
     height: 30px;
     margin-left: 8%;
 }
+/*响应式导航end*/
 
+.clear {
+    clear: both;
+}
+
+/*底部*/
+.color {
+    background-color: #26a26f;
+    color: #fff;
+}
 a {
     text-decoration: none;
 }
@@ -75,59 +77,45 @@ a {
 a:link {
     color: #fff;
 }
-
-.li-style {
-    font-size: 2.5rem;
-}
-
-.li-style li a:visited {
-    background-color: #26a26f;
-    color: #fff;
-}
-
-.li-style li a:hover {
-    background-color: #26a26f;
-    color: #fff;
-}
-
-.li-style li a:active {
-    background-color: #26a26f;
-    color: #fff;
-}
-
-.li-style1 ul {
-    margin-left: 0;
-    padding: 0;
-}
-
-.li-style1 ul li {
+/*底部左边*/
+.li-style-left{
+    font-size: 1.4rem;
     display: inline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-right: 1px solid black;
-    margin-left: 0;
     padding: 0 5%;
-    font-size: 0.8rem;
 }
-
-.li-style1 ul li.left0 {
+.left0 {
     padding-left: 0;
 }
+#border-none{
+    border:none;
+}
+/*底部中间*/
+.li-style-center{
+    font-size: 1.4rem;
+    list-style: none;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 36%;
+}
 
+/*copyright上边框*/
+.border-top {
+    border-top: 1px #f6f6f6 solid;
+}
+
+/*上边距以及居中*/
 .margin-top {
     margin-top: 5%;
 }
-
-.padding-left {
-    padding-left: 7%;
-}
-
 .text-align-center {
     text-align: center;
     font-size: 2rem;
-}
-
-.border-top {
-    border-top: 1px #f6f6f6 solid;
 }
 
 @media screen and ( max-width: 480px) {

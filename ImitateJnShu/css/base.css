@@ -13,7 +13,7 @@ html {
 body {
     position: relative;
 }
-
+/*雪碧图*/
 .background-img {
     background: url(../img/background-img.png) no-repeat;
 }
@@ -156,7 +156,7 @@ body {
     left: 3%;
     top: 17%
 }
-
+/*顶栏客服热线*/
 .topnav {
     width: 100%;
     height: 30px;
@@ -175,7 +175,7 @@ body {
     display: inline-block;
     position: absolute
 }
-
+/*导航栏*/
 .nav {
     width: 100%;
     height: 70px;
@@ -215,7 +215,7 @@ body {
     right: 46%;
     top: 30%;
 }
-
+/*底部*/
 .footer {
     clear: both;
     margin-top: 5%;
@@ -233,7 +233,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 5%;
 }
-
+/*技能树改变你我*/
 .term {
     width: 20%;
     float: left;
@@ -245,7 +245,10 @@ body {
     padding-right: 5%;
     font-size: 1.2rem;
 }
-
+.border-none{
+    border: none;
+}
+/*旗下网站*/
 .web {
     width: 15%;
     float: left;
@@ -256,14 +259,14 @@ body {
     display: inline-block;
     font-size: 1.2rem;
 }
-
+/*二维码*/
 .code {
     width: 20%;
     text-align: center;
     float: right;
     margin-right: 5%;
 }
-
+/*copyright*/
 .copyright {
     width: 100%;
     clear: both;

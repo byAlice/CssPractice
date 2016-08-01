@@ -105,7 +105,7 @@
 .bg4{
     background:url(../img/banner-4.jpg) center no-repeat;
 }
-/*内容*/
+/*!*内容*!
 .container {
     width: 100%;
     box-sizing: border-box;
@@ -122,7 +122,7 @@
 }
 .relative{
     position: relative;
-}
+}*/
 .content1{
     width: 100%;
     box-sizing: border-box;
@@ -187,6 +187,7 @@ p {
     color: #999999;
     line-height: 2rem;
 }
+/*如何学习*/
 .study{
     width: 100%;
     padding: 5% 2%;
@@ -221,6 +222,7 @@ p {
     margin-left:5%;
     margin-right:5%;
 }
+/*优秀学员展示*/
 .show{
     width: 100%;
     box-sizing: border-box;
@@ -247,6 +249,7 @@ p {
 .circle1:hover{
     background-color: #26a26f;
 }
+/*战略合作伙伴*/
 .partner{
     margin-top: 5%;
     box-sizing: border-box;
@@ -257,6 +260,7 @@ p {
     display: inline-block;
     margin-left: 7%;
 }
+/*友情链接*/
 .link{
     width: 100%;
     box-sizing: border-box;
@@ -270,3 +274,14 @@ p {
     margin-left: 5%;
     list-style-type: disc;
 }
+
+@media screen and (max-width: 480px) {
+    .bar-left em {
+        background: url(../img/prev.png) no-repeat;
+    }
+
+    .bar-right em {
+        background: url(../img/next.png) no-repeat;
+    }
+}
+
