@@ -80,6 +80,7 @@ a:link {
 h4{
     background-color: #26a26f;
     color: #fff;
+    font-size: 1.5rem;
 }
 /*底部左边*/
 .li-style-left li{
@@ -93,7 +94,6 @@ h4{
     padding: 0 5%;
 }
 .left0 {
-    margin-left: 0;
     padding-left: 0;
 }
 #border-none{
