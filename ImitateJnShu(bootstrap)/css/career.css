@@ -1,3 +1,4 @@
+/*首页>职业*/
 .active-1 {
     background-color: #26a26f;
     color: #FFF;
@@ -9,7 +10,7 @@ p {
     clear: both;
 }
 p span {
-    color: #428b40;
+    color: #26a26f;
 }
 .ul1 {
     border-bottom: 1px solid #f0f3f9;
@@ -27,9 +28,8 @@ p span {
     padding: 0 6%;
 
 }
-
 .ul1 li a:hover {
-    background-color: #428b40;
+    background-color: #26a26f;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ p span {
 
 .face {
     color: #777c7f;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     font-weight: 200;
     border: 1px solid #dce5ea;
@@ -84,12 +84,12 @@ h1 {
 }
 
 .p1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: left;
+    word-break: break-all;
     line-height: 1.5rem;
     font-weight: 400;
     color: black;
-
     margin-top: 0;
 }
 
@@ -128,7 +128,7 @@ h1 {
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
     background-color: #292929;
     filter: alpha(opacity:0);
@@ -144,8 +144,9 @@ h1 {
 
 .p2 {
     text-indent: 2em;
+    font-size: 1.7rem;
     text-align: left;
-    line-height: 2.4rem;
+    line-height: 2rem;
     margin-top: 5%;
     margin-bottom: 0;
     border: none;
@@ -167,7 +168,8 @@ h1 {
 
 .float-right {
     float: left;
-    width: 60%;
+    margin-left: 2%;
+    width: 58%;
 }
 
 .half {
