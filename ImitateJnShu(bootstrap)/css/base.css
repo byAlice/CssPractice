@@ -85,7 +85,7 @@ h4{
 /*底部左边*/
 .li-style-left li{
     font-size: 1.4rem;
-    float: left;
+    display: inline;
     list-style: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
